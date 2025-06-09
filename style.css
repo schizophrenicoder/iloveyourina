@@ -1,0 +1,175 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #eee;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* Background Image */
+#bg-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 70vh;
+  max-width: 90vw;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+  filter: brightness(0.6);
+  z-index: -2;
+  border-radius: 20px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Overlay for start */
+#startOverlay {
+  position: fixed;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-content {
+  max-width: 90%;
+}
+
+#startOverlay h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+#startOverlay p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+#startOverlay button {
+  background: rgba(255, 192, 203, 0.15);
+  border: none;
+  color: #eee;
+  padding: 14px 45px;
+  font-size: 1.2rem;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 30px rgba(255, 182, 193, 0.7);
+}
+
+#startOverlay button:hover {
+  background: rgba(255, 182, 193, 0.35);
+  transform: scale(1.08);
+  box-shadow: 0 0 50px rgba(255, 182, 193, 0.9);
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 60px auto 100px auto;
+  padding: 0 20px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+/* Title */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  margin-bottom: 35px;
+  color: #ffc0cb;
+  text-shadow: 0 0 20px rgba(255, 182, 193, 0.8);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(120deg, rgba(255,192,203,0.1), rgba(255,182,193,0.3));
+  border: none;
+  color: #fff;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.2);
+  backdrop-filter: blur(8px);
+  margin: 0 auto;
+  display: inline-block;
+}
+
+button:hover {
+  background: rgba(255, 182, 193, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 182, 193, 0.4);
+}
+
+/* Gallery images styling */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 280px;
+  height: 180px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.4);
+  opacity: 0;
+  transition: opacity 2s ease;
+  user-select: none;
+}
+
+
+/* Birthday letter box */
+#birthdayLetter {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #eee;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.3);
+  white-space: pre-wrap;
+  text-align: left;
+  user-select: text;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#buttonsAfterPhotos {
+  animation: fadeSlideUp 1s ease forwards;
+  opacity: 0; /* start hidden */
+}

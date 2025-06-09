@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday, My Love 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Image -->
+ <img src="background.jpg" id="bg-image" alt="" aria-hidden="true" />
+
+  <!-- Audio -->
+  <audio id="bg-music" loop>
+    <source src="song.mp3" type="audio/mp3" />
+  </audio>
+
+  <!-- Start overlay -->
+  <div id="startOverlay">
+    <div class="start-content">
+      <h2>Happy Birthday Karina</h2>
+      <p>Tap to begin something beautiful</p>
+      <button onclick="startExperience()">Begin</button>
+    </div>
+  </div>
+
+
+  <!-- Main container hidden initially -->
+  <div class="container" id="mainContent" style="display:none;">
+
+    <h1>Happy Birthday My Princess</h1>
+
+    <button id="showPhotosBtn">Show me her beauty 💫</button>
+
+    <div class="gallery" id="gallery" style="margin-top:30px;"></div>
+
+    <div id="buttonsAfterPhotos" style="display:none; margin-top: 30px;">
+      <button id="showLetterBtn">Read my birthday letter 💌</button>
+      <button id="autoReadLetterBtn" style="margin-left: 15px;">Auto-read my birthday letter ▶️</button>
+    </div>
+
+    <div id="birthdayLetter" style="display:none;"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
