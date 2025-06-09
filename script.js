@@ -1,7 +1,7 @@
 const photos = [
-  'images/gf1.jpg',
-  'images/gf2.jpg',
-  'images/gf3.jpg',
+  'gf1.jpg',
+  'gf2.jpg',
+  'gf3.jpg',
 ];
 // Add your girlfriend's photos here inside an "images" folder
 
