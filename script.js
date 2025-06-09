@@ -1,7 +1,7 @@
 const photos = [
-  'gf1.jpg',
-  'gf2.jpg',
-  'gf3.jpg',
+  'https://raw.githubusercontent.com/schizophrenicoder/iloveyourina/gf1.jpg',
+  'https://raw.githubusercontent.com/schizophrenicoder/iloveyourina/gf2.jpg',
+  'https://raw.githubusercontent.com/schizophrenicoder/iloveyourina/gf3.jpg',
 ];
 // Add your girlfriend's photos here inside an "images" folder
 
