@@ -100,26 +100,7 @@ your laughter
 your endless support
 and the way you make me believe in forever
 you are the most precious gift i have ever received
-and i thank the stars every day for bringing you to me
-so on your birthday my love
-my heart
-my everything
-i wish you dreams that come true
-love that never fades
-and joy that fills every corner of your soul
-i wish you strength for every challenge
-happiness for every moment
-and peace that surrounds you always
-i wish i could be there to hold you close
-to whisper happy birthday in your ear
-and to show you how deeply and madly i love you
-but until that day comes
-i will keep sending you all my love through these words
-through my heart
-through everything i am
-because you are worth every second
-every mile
-every beat of my heart
+and i thank god every day for bringing you to me
 i love you more than words could ever capture
 and i promise to love you even more tomorrow and every day after
 thank you for being you
